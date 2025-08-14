@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import { computeTargets, Activity, Goal, Sex } from "@/lib/targets";
+import { computeTargets, Activity, Goal, Sex } from "../lib/targets";
+import { FOODS, nutrientsFor, searchFoods, byDiet, excludeAllergens, roundTo, round1, Food } from "../lib/fooddb";
+
 import { FOODS, nutrientsFor, searchFoods, byDiet, excludeAllergens, roundTo, round1, Food } from "@/lib/fooddb";
 
 const label = { marginBottom: 6, display: "block", fontSize: 12, opacity: 0.85 };
