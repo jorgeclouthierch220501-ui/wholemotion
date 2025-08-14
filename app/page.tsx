@@ -3,7 +3,6 @@
 import { computeTargets, Activity, Goal, Sex } from "../lib/targets";
 import { FOODS, nutrientsFor, searchFoods, byDiet, excludeAllergens, roundTo, round1, Food } from "../lib/fooddb";
 
-import { FOODS, nutrientsFor, searchFoods, byDiet, excludeAllergens, roundTo, round1, Food } from "@/lib/fooddb";
 
 const label = { marginBottom: 6, display: "block", fontSize: 12, opacity: 0.85 };
 const input = { padding: "10px 12px", borderRadius: 10, border: "1px solid #2b2b2f", background: "#141418", color: "#fff", width: "100%" } as const;
